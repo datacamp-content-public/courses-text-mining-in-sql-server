@@ -1,53 +1,13 @@
 ---
-title: 'Text Mining Queries'
-description: 'Chapter description goes here.'
+title: 'Regular Expressions in SQL Server'
+description: ""
 ---
 
-## LIKE
+## IS MATCHING
 
 ```yaml
 type: NormalExercise
-key: 2bafef99a3
-lang: r
-xp: 100
-skills: 1
-```
-
-This is an example exercise.
-
-`@instructions`
-
-
-`@hint`
-
-
-`@pre_exercise_code`
-```{r}
-
-```
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-
-```
-
-`@sct`
-```{r}
-
-```
-
----
-
-## CONTAINS
-
-```yaml
-type: NormalExercise
-key: 533b26d643
+key: 7bba433588
 xp: 100
 ```
 
@@ -81,11 +41,49 @@ xp: 100
 
 ---
 
-## FREETEXT
+## SUBSTITION
 
 ```yaml
 type: NormalExercise
-key: c8bc2c2cce
+key: 135d522eab
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## WHITESPACE
+
+```yaml
+type: NormalExercise
+key: c6611a7b8d
 xp: 100
 ```
 

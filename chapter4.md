@@ -1,53 +1,13 @@
 ---
-title: 'Text Mining Queries'
-description: 'Chapter description goes here.'
+title: 'Natural Language Processing'
+description: ""
 ---
 
-## LIKE
+## TOKENIZATION
 
 ```yaml
 type: NormalExercise
-key: 2bafef99a3
-lang: r
-xp: 100
-skills: 1
-```
-
-This is an example exercise.
-
-`@instructions`
-
-
-`@hint`
-
-
-`@pre_exercise_code`
-```{r}
-
-```
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-
-```
-
-`@sct`
-```{r}
-
-```
-
----
-
-## CONTAINS
-
-```yaml
-type: NormalExercise
-key: 533b26d643
+key: 170446bd58
 xp: 100
 ```
 
@@ -81,11 +41,87 @@ xp: 100
 
 ---
 
-## FREETEXT
+## TERM FREQUENCY
 
 ```yaml
 type: NormalExercise
-key: c8bc2c2cce
+key: b6532bf985
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## INVERSE DOCUMENT FREQUENCY
+
+```yaml
+type: NormalExercise
+key: f6134772ed
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## TF-IDF Weighting
+
+```yaml
+type: NormalExercise
+key: bbc3572230
 xp: 100
 ```
 
