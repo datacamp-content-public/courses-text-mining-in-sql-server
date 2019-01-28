@@ -1,6 +1,7 @@
 ---
 title: 'Text Mining Queries'
 description: 'Chapter description goes here.'
+free_preview: true
 ---
 
 ## LIKE
