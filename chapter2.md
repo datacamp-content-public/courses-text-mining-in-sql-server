@@ -14,14 +14,15 @@ xp: 100
 The query STRING_SPLIT() separates text with a delimiter
 
 `@instructions`
-Take this sentence and insert into the STRING_SPLIT() function
+Take this quote and insert into the STRING_SPLIT() function with this delimiter " ".
+"Mysterio's visual on-screen adaptation in #SpiderManFarFromHome is very close to its comic counterpart!"
 
 `@hint`
 
 
 `@pre_exercise_code`
 ```{r}
-1)SELECT VALUE FROM  STRING_SPLIT('Mysterio'\s visual on-screen adaptation in #SpiderManFarFromHome is very close to its comic counterpart!', ' ');
+SELECT VALUE FROM  STRING_SPLIT("Mysterio's visual on-screen adaptation in #SpiderManFarFromHome is very close to its comic counterpart!", " ");
 ```
 
 `@sample_code`
@@ -31,7 +32,7 @@ Take this sentence and insert into the STRING_SPLIT() function
 
 `@solution`
 ```{r}
-SELECT VALUE FROM  STRING_SPLIT('Mysterio'\s visual on-screen adaptation in #SpiderManFarFromHome is very close to its comic counterpart!', ' ');
+SELECT VALUE FROM  STRING_SPLIT("Mysterio's visual on-screen adaptation in #SpiderManFarFromHome is very close to its comic counterpart!", " ");
 ```
 
 `@sct`
