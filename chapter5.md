@@ -3,7 +3,7 @@ title: 'Video sample for Chapter 2'
 description: ""
 ---
 
-## Insert exercise title here
+## Using the String_SPLIT function
 
 ```yaml
 type: VideoExercise
